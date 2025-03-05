@@ -20,5 +20,5 @@ def get_players(players_count: int, cards_count_per_player) -> list[Player]:
     players = []
     for i in range(players_count):
         name = input(f"Enter the name of player {i + 1}: ")
-        players.append(Player(name, cards_count_per_player, []))
+        players.append(Player(i, name, cards_count_per_player, []))
     return players
