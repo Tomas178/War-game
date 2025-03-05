@@ -1,14 +1,16 @@
 # War Game
 
 ## Main functions
-1. Choose player count (2-4)
-2. Divide cards stack to the players (if 2 players each gets 26, 3 players get 17, and 4 players get 13 cards)
-3. Select randomly who starts
+1. Enter player names (2 players)
+2. Divide cards stack to the players. Each gets 26 cards
 4. Draw a card
 5. Highest cards wins and gets all the cards and puts them to the bottom of deck
 6. If cards are same rank. Put one card face-down and the other face-up. Winner gets all the cards including face-down.
-7. Game ends when one of the players has all the cards
+7. Game ends when one of the players has all the cards or one of players has no cards left
 
 ## Models
 1. Player
-2. Game??? - Not sure about that
+2. Board
+
+## Game logic
+- User enters names of the two players and then the program runs automatically without any other user input until winner is decided.
